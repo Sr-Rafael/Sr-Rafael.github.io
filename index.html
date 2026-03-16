@@ -1,0 +1,63 @@
+<!--
+	* @directory 
+	* @file index.html
+	* @brief Página principal (início) do portifólio (Ágora)
+	* @author Rafael Neves (Hiperion)
+	* @date 13/03/2026
+	* @version 1.0.4
+	* @defgroup Interface
+-->
+<!DOCTYPE html> <!-- [INFO]: Declaração que instrui o navegador a interpretar este documento usando o padrão HTML5. -->
+<html lang="pt-br"> <!-- [INFO]: Elemento raiz que envolve todo o conteúdo. O atributo 'lang' define o idioma principal da página. -->
+	<head> <!-- [INFO]: Contém metadados e instruções para o navegador, não sendo visível ao usuário (exceto o 'title'). -->
+		<meta charset="utf-8"> <!-- [INFO]: Define o conjunto de caracteres como UTF-8, garantindo a correta exibição de acentos e símbolos. -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- [INFO]: Instrução para a correta adaptação da página a diferentes tamanhos de tela, como em dispositivos móveis. -->
+		
+		<title>Akasha</title> <!-- [INFO]: Define o texto que aparecerá na aba ou na janela do navegador. -->
+	</head>
+	<body>
+	<!-- [INFO]: Corpo do documento. Todo o conteúdo visível da página reside aqui. -->
+
+		<!-- [INFO]: Seção de navegação principal, destinada a ser a barra lateral fixa. -->
+		<nav>
+			<a href="#" >Início</a> <!-- [INFO]: Link para o topo da página atual, evitando recarregamento. -->
+			<a href="portfolio.html" >Portfólio</a> <!-- [INFO]: Link para a futura página de projetos. -->
+			<a href="skills.html" >Habilidades</a> <!-- [INFO]: Link para a futura página de habilidades. -->
+			<a href="linguagens.html" >Linguagens</a> <!-- [INFO]: Link para a futura página sobre linguagens de programação. -->
+			<a href="sobre.html" >Sobre</a> <!-- [INFO]: Link para a futura página com mais informações sobre o autor. -->
+			<a href="cafe.html" >Café</a> <!-- [INFO]: Link para uma seção de apoio ou contato mais informal. -->
+		</nav>
+
+		<!-- [INFO]: Contêiner principal que agrupa o conteúdo que rolará, para facilitar o layout com CSS. -->
+		<div class="main-container">
+			<!-- [INFO]: Conteúdo principal e único da página. -->
+			<main>
+				<!-- [INFO]: Imagem de perfil, carregada dinamicamente a partir do GitHub. -->
+				<img src="https://github.com/Sr-Rafael.png" alt="Foto de perfil do Rafael Neves">
+				
+				<!-- [INFO]: Cabeçalho do conteúdo principal, servindo como uma legenda para a imagem. -->
+				<header>
+					<h1 id="Titulo">Ágora - Rafael Neves</h1> <!-- [INFO]: Título principal e mais importante da página. -->
+					<h2 id="Slogan">Forjando ideias em realidade através do código.</h2> <!-- [INFO]: Subtítulo ou slogan que complementa o título principal. -->
+				</header>
+
+				<!-- [INFO]: Divisão para agrupar os botões de "chamada para ação". -->
+				<div>
+					<a href="portfolio.html">Ver Projetos</a> <!-- [INFO]: Link de destaque para a seção de portfólio. -->
+					<a href="https://github.com/Sr-Rafael" target="_blank">Visitar GitHub</a> <!-- [INFO]: Link externo para o perfil do GitHub, que abrirá em uma nova aba. -->
+				</div>
+			</main>
+
+			<!-- [INFO]: Rodapé da página, contendo informações de autoria e contato. -->
+			<footer>
+				<hr> <!-- [INFO]: Linha horizontal para separação visual. -->
+				<div>
+					<p>
+						&copy; 2026 Rafael Neves. Todos os direitos reservados. <!-- [INFO]: Declaração de direitos autorais. -->
+					</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
