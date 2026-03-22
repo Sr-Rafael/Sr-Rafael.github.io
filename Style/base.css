@@ -1,0 +1,73 @@
+/* [INFO]: Padronização da margem e borda e ajuste da borda */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================================== */
+/* === Definição do estilo global === */
+/* ================================== */
+
+/* [INFO]: Definição das vatiáveis globais */
+:root {
+    /* [INFO]: Paleta de cor */
+    --cor-primaria: #6a0dad;
+    --cor-fundo: #0e162c;
+    --cor-superficie: #011936;
+    --cor-texto-principal: #e0e0e0;
+    --cor-primaria-texto-secundário: #a0a0a0;
+    --cor-destaque: #FF3C00;
+
+    /* [INFO]: Tipografia */
+    --fonte-principal: "Aleo", Serif;
+    --fonte-titulos: "Bree Serif", "Aleo", Serif;
+
+    /* [INFO]: Tipografia - Título */
+    --fonte-titulo: "Imperial Script", "Tangerine", "Merienda", "Bree Serif", "Aleo", Serif;
+
+    /* [INFO]: Tipografia - Slogan*/
+    --fonte-slogan: "Merienda", Serif;
+}
+
+/* ================================== */
+/* === Aplicação do estilo global === */
+/* ================================== */
+
+/* [INFO]: Aplicação do estilo no corpo da página */
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-principal);
+}
+
+/* [INFO]: Aplicação do estilo nos títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fonte-titulos);
+    color: var(--cor-primaria);
+    font-weight: 700;
+}
+
+/* [INFO]: Aplicação da tipografia para o Título */
+#Titulo {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+}
+
+/* [INFO]: Aplicação da tipografia para o Slogan */
+#Slogan {
+    font-family: var(--fonte-slogan);
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+/* [INFO]: Definição do estilo para links */
+a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+a:hover {
+    /* Esilo para quando passa o mouse por cima */
+    font-style: italic;
+    text-decoration: underline;
+}
