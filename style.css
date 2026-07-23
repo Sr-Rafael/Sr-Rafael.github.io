@@ -1,1 +1,15 @@
+/*
+	* @directory Sr-Rafael.github.io
+	* @file style.css
+	* @brief Importa os aquivos de estilização da página
+	* @author Rafael Neves (Hiperion)
+	* @date 22/07/2026
+	* @version 1.0.1
+	* @defgroup Interface
+*/
+
+/* Importação do css que forma a base do site */
 @import url('Style/base.css');
+
+/*Importação do css que faz a configuração do layout do site */
+@import url('Style/layout.css');
