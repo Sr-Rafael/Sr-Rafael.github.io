@@ -33,11 +33,16 @@ nav {
 
     /* [INFO]: Alinhamento vertical */
     display: flex;
+    /* Define a direção do 'flex' */
     flex-direction: column;
+    /* Da um espaço dinâmico entre os elementos */
     gap: 1rem;
+    /* Justifica verticalmente os elementos */
     justify-content: center;
+    /* Justifica horizontalmente os elementos */
     align-items: center;
-
+    /* Alinha a coluna aos elementos */
     align-self: center;
+    /* Adiciona uma borda */
     margin: 0 2 rem 0 1rem;
 }
